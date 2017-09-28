@@ -1,3 +1,20 @@
+#import math
+
+class Element(object):
+    def __init__(self, symbol, atomicWeight):
+        self.symbol = symbol
+        self.atomicWeight = atomicWeight
+
+periodicTable = []
+
+userInputVar = NULL
+
+"""for element in periodicTable:
+    if userInputVar == element.symbol:
+        #do this
+        """
+        
+
 #Find how many moles the sunstance has
 gramsPerMole = float(raw_input("How many grams/mole do you have in your substance? "))
 gramsOfSubstance = float(raw_input("How many grams of your substance do you have? "))
